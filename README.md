@@ -17,7 +17,3 @@ As this is a personal repository, I am not currently accepting external contribu
 ## Contact
 
 If you have any questions or suggestions, feel free to reach out to me! 📧
-
-## License
-
-This repository is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details. 📄
