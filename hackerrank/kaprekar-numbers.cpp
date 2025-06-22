@@ -7,8 +7,7 @@
 #define ldb long double
 using namespace std;
 
-int main()
-{
+int main() {
   ios_base::sync_with_stdio(0);
   cin.tie(0);
   cout.tie(0);
@@ -17,20 +16,19 @@ int main()
   bool isOut = 0;
   cin >> p >> q;
 
-  while (p <= q)
-  {
+  while (p <= q) {
     string a = to_string(p * p);
     int l, r, s, len = a.size();
     l = r = s = 0;
 
-    for (int i = 0; i < len; i++)
-    {
-      if (i < len / 2) l = l * 10 + (a[i] - '0');
-      else r = r * 10 + (a[i] - '0');
+    for (int i = 0; i < len; i++) {
+      if (i < len / 2)
+        l = l * 10 + (a[i] - '0');
+      else
+        r = r * 10 + (a[i] - '0');
     }
 
-    if (l + r == p)
-    {
+    if (l + r == p) {
       cout << p << ' ';
       isOut = 1;
     }
@@ -38,7 +36,8 @@ int main()
     p++;
   }
 
-  if (!isOut) cout << "INVALID RANGE";
+  if (!isOut)
+    cout << "INVALID RANGE";
 
   return 0;
 }
