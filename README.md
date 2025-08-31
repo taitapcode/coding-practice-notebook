@@ -1,19 +1,22 @@
 # My Programming Problems Solutions 🚀
 
-This repository is dedicated to storing my solutions to programming problems from various online judges, including:
+This repository contains my solutions to programming problems from various online judges and programming contests. Most solutions are implemented in **C++**.
 
-- [HackerRank](https://www.hackerrank.com/) 💻
-- [VNOI OJ](https://oj.vnoi.info/) 🇻🇳
-- And more! ➕
+## 🏆 Platforms
 
-## About Me
+- **HackerRank**: Algorithm and data structure problems
+- **LeetCode**: Coding interview preparation problems
+- **VNOI OJ**: Vietnamese Online Judge problems
+- **Contest Problems**: Programming contest solutions
 
-I'm a passionate programmer who enjoys solving challenging problems. This repository serves as a personal archive of my solutions and a place to track my progress.
+## 💡 About This Repository
 
-## Contributing
+This repository serves as:
 
-As this is a personal repository, I am not currently accepting external contributions. However, feel free to browse the code and use it as a reference for your own solutions! 💡
+- A personal archive of my programming solutions
+- A reference for competitive programming techniques
+- A way to track my progress in problem-solving
 
-## Contact
+## 🤝 Contributing
 
-If you have any questions or suggestions, feel free to reach out to me! 📧
+As this is a personal repository, I am not currently accepting external contributions. However, feel free to browse the code and use it as a reference for your own solutions!
