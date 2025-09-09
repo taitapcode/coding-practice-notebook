@@ -22,18 +22,20 @@ int bestMatrix[8][3][3] = {{{8, 3, 4}, {1, 5, 9}, {6, 7, 2}},
 
                            {{2, 9, 4}, {7, 5, 3}, {6, 1, 8}}};
 
-int main() {
+int main()
+{
   ios_base::sync_with_stdio(0);
   cin.tie(0);
   cout.tie(0);
 
   int m[3][3];
-  for (auto &r : m)
-    for (int &x : r)
+  for (auto& r : m)
+    for (int& x : r)
       cin >> x;
 
   int ans = INT_MAX;
-  for (auto a : bestMatrix) {
+  for (auto a : bestMatrix)
+  {
     int c = 0;
 
     for (int i = 0; i < 3; i++)

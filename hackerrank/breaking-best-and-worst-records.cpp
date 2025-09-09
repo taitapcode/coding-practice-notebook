@@ -6,7 +6,8 @@
 #define ldb long double
 using namespace std;
 
-int main() {
+int main()
+{
   ios_base::sync_with_stdio(0);
   cin.tie(0);
   cout.tie(0);
@@ -15,7 +16,7 @@ int main() {
   cin >> n;
 
   int a[n];
-  for (int &x : a)
+  for (int& x : a)
     cin >> x;
 
   int l, m, cl, cm;
@@ -23,10 +24,13 @@ int main() {
   cl = cm = 0;
 
   for (int i = 1; i < n; i++)
-    if (a[i] > m) {
+    if (a[i] > m)
+    {
       m = a[i];
       cm++;
-    } else if (a[i] < l) {
+    }
+    else if (a[i] < l)
+    {
       l = a[i];
       cl++;
     }

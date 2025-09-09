@@ -12,19 +12,24 @@ vector<int> adj[100005];
 int dist[600][600];
 const int INF = 1e9;
 
-int main() {
+int main()
+{
   ios_base::sync_with_stdio(0);
   cin.tie(0);
   cout.tie(0);
 
   cin >> n >> m >> s >> e;
-  while (m--) {
+  while (m--)
+  {
     int direct, u, v, distance;
     cin >> direct >> u >> v >> distance;
-    if (direct == 1) {
+    if (direct == 1)
+    {
       adj[u].push_back(v);
       dist[u][v] = distance;
-    } else {
+    }
+    else
+    {
       adj[u].push_back(v);
       adj[v].push_back(u);
       dist[u][v] = distance;
@@ -40,7 +45,8 @@ int main() {
       pq;
   pq.push({0, s});
 
-  while (!pq.empty()) {
+  while (!pq.empty())
+  {
     int u = pq.top().second;
     int du = pq.top().first;
     pq.pop();
@@ -48,8 +54,10 @@ int main() {
     if (du != d[u])
       continue;
 
-    for (int v : adj[u]) {
-      if (d[v] > d[u] + dist[u][v]) {
+    for (int v : adj[u])
+    {
+      if (d[v] > d[u] + dist[u][v])
+      {
         d[v] = d[u] + dist[u][v];
         p[v] = u;
         pq.push({d[v], v});
@@ -57,22 +65,28 @@ int main() {
     }
   }
 
-  if (d[e] == INF) {
+  if (d[e] == INF)
+  {
     cout << -1 << el;
-  } else {
+  }
+  else
+  {
     cout << d[e] << " ";
     vector<int> path;
     int curr = e;
-    while (curr != 0) {
+    while (curr != 0)
+    {
       path.push_back(curr);
       curr = p[curr];
-      if (curr == s) {
+      if (curr == s)
+      {
         path.push_back(s);
         break;
       }
     }
     reverse(path.begin(), path.end());
-    for (int node : path) {
+    for (int node : path)
+    {
       cout << node << " ";
     }
     cout << el;

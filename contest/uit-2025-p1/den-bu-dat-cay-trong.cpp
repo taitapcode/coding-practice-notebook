@@ -9,7 +9,8 @@ using namespace std;
 int n;
 ll mul = 1;
 
-int main() {
+int main()
+{
   ios_base::sync_with_stdio(0);
   cin.tie(0);
   cout.tie(0);
@@ -17,7 +18,8 @@ int main() {
   cin >> n;
 
   int a;
-  while (n--) {
+  while (n--)
+  {
     cin >> a;
     mul *= a;
   }

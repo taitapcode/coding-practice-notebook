@@ -6,9 +6,10 @@
 #define ldb long double
 using namespace std;
 
-void moveZeroes(vector<int> &nums) {
+void moveZeroes(vector<int>& nums)
+{
   int idx = 0;
-  for (int &x : nums)
+  for (int& x : nums)
     if (x != 0)
       nums[idx++] = x;
 
@@ -16,7 +17,8 @@ void moveZeroes(vector<int> &nums) {
     nums[idx++] = 0;
 }
 
-int main() {
+int main()
+{
   ios_base::sync_with_stdio(0);
   cin.tie(0);
   cout.tie(0);
@@ -25,7 +27,7 @@ int main() {
 
   moveZeroes(nums);
 
-  for (int &x : nums)
+  for (int& x : nums)
     cout << x << " ";
 
   return 0;

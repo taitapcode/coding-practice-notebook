@@ -6,15 +6,16 @@
 #define ldb long double
 using namespace std;
 
-int strStr(string haystack, string needle) {
+int strStr(string haystack, string needle)
+{
   int idx = haystack.find(needle);
-  if (idx == string::npos)
-    return -1;
+  if (idx == string::npos) return -1;
 
   return idx;
 }
 
-int main() {
+int main()
+{
   ios_base::sync_with_stdio(0);
   cin.tie(0);
   cout.tie(0);

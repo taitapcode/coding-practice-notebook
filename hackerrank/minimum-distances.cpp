@@ -6,7 +6,8 @@
 #define ldb long double
 using namespace std;
 
-int main() {
+int main()
+{
   ios_base::sync_with_stdio(0);
   cin.tie(0);
   cout.tie(0);
@@ -15,7 +16,8 @@ int main() {
   cin >> n;
 
   map<int, int> mp;
-  for (int i = 1; i <= n; i++) {
+  for (int i = 1; i <= n; i++)
+  {
     cin >> a;
     if (mp[a])
       ans = min(ans, i - mp[a]);

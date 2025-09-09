@@ -6,7 +6,8 @@
 #define ldb long double
 using namespace std;
 
-int main() {
+int main()
+{
   ios_base::sync_with_stdio(0);
   cin.tie(0);
   cout.tie(0);
@@ -21,7 +22,8 @@ int main() {
 
   int maxT = 0, cnt = 0;
   for (int i = 0; i < n - 1; i++)
-    for (int j = i + 1; j < n; j++) {
+    for (int j = i + 1; j < n; j++)
+    {
       int currCnt = 0;
       for (int k = 0; k < m; k++)
         if (a[i][k] == '1' || a[j][k] == '1')
@@ -29,7 +31,8 @@ int main() {
 
       if (currCnt == maxT)
         cnt++;
-      else if (currCnt > maxT) {
+      else if (currCnt > maxT)
+      {
         maxT = currCnt;
         cnt = 1;
       }
