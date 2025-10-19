@@ -1,22 +1,17 @@
-# My Programming Problems Solutions 🚀
+# Coding Practice Notebook
 
-This repository contains my solutions to programming problems from various online judges and programming contests. Most solutions are implemented in **C++**.
+Coding Practice Notebook collects solutions to programming problems from many
+online judges and programming contests. Most solutions are implemented in C++.
 
-## 🏆 Platforms
-
-- **HackerRank**: Algorithm and data structure problems
-- **LeetCode**: Coding interview preparation problems
-- **VNOI OJ**: Vietnamese Online Judge problems
-- **Contest Problems**: Programming contest solutions
-
-## 💡 About This Repository
+## About This Repository
 
 This repository serves as:
 
 - A personal archive of my programming solutions
 - A reference for competitive programming techniques
-- A way to track my progress in problem-solving
+- A way to track my progress in problem solving
 
-## 🤝 Contributing
+## Contributing
 
-As this is a personal repository, I am not currently accepting external contributions. However, feel free to browse the code and use it as a reference for your own solutions!
+This is a personal repository, so external contributions are not accepted.
+Feel free to browse the code and adapt it for your own practice.
