@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/apply-operations-to-an-array/description/
+// https://leetcode.com/problems/apply-operations-to-an-array/
 #include <bits/stdc++.h>
 #define el '\n'
 #define ll long long

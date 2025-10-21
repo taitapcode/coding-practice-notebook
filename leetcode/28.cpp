@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/
+// https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/
 #include <bits/stdc++.h>
 #define el '\n'
 #define ll long long
